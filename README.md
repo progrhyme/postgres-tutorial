@@ -19,7 +19,7 @@ To run server by docker, execute following commands:
 cd postgres-tutorial
 docker run -dP \
   --name pg-sample \
-  -v "$(pwd)/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d \
+  -v "$(pwd)/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d" \
   postgres
 ```
 
